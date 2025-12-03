@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Политика использования cookies – Территория</title>
+
+<!-- Подключаем шрифт MorfinSans -->
+<style>
+@font-face {
+    font-family: 'MorfinSans';
+    src: url('fonts/MorfinSans.woff2') format('woff2'),
+         url('fonts/MorfinSans.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MorfinSans';
+    src: url('fonts/MorfinSans-Bold.woff2') format('woff2'),
+         url('fonts/MorfinSans-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+  --green-dark: #0F402B;
+  --green-light: #145C3A;
+  --black: #000;
+  --white: #fff;
+  --gray: #dcdcdc;
+  --transition: 0.3s;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { 
+  font-family: 'MorfinSans', sans-serif; 
+  background: var(--black); 
+  color: var(--white); 
+  letter-spacing: 1px;
+}
+a { text-decoration: none; transition: var(--transition); }
+a:hover { opacity: 0.8; }
+
+/* HEADER */
+header { width: 100%; padding: 20px 40px; background: rgba(0,0,0,0.85); backdrop-filter: blur(10px); display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255,255,255,0.1);}
+.header-left { display: flex; align-items: center; gap: 40px; }
+.logo-img { height: 100px; width: auto; }
+nav a { color: var(--white); margin-right: 20px; font-size: 18px; font-weight: 600; letter-spacing: 1.5px; }
+.header-contacts { text-align: right; font-size: 18px; line-height: 1.6; letter-spacing: 1px; }
+.header-contacts a { color: var(--white); font-weight: 700; }
+
+/* CONTENT */
+section { padding: 120px 40px 80px; max-width: 900px; margin: 0 auto; line-height: 1.9; letter-spacing: 1px; }
+h1 { font-size: 48px; margin-bottom: 30px; font-weight: 700; letter-spacing: 2px; }
+h2 { font-size: 32px; margin: 20px 0 10px; color: var(--green-light); font-weight: 700; letter-spacing: 1.5px; }
+p { font-size: 18px; margin-bottom: 15px; letter-spacing: 1px; }
+ul { margin-left: 20px; margin-bottom: 20px; }
+ul li { font-size: 18px; line-height: 1.8; letter-spacing: 1px; }
+
+/* FOOTER */
+footer { background: var(--black); padding: 60px 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; border-top: 1px solid rgba(255,255,255,0.15);}
+footer h3 { font-size: 22px; margin-bottom: 20px; font-weight: 700; letter-spacing: 1.5px; }
+footer a, footer p { color: var(--gray); font-size: 16px; line-height: 1.8; letter-spacing: 1px; }
+.footer-brand { font-size: 32px; font-weight: 900; letter-spacing: 2px; }
+footer a:hover { color: var(--white); }
+</style>
+</head>
+<body>
+
+<header>
+<div class="header-left">
+<a href="/index.html">
+      <img src="logo.jpg" alt="Территория" class="logo-img">
+</a>
+<nav>
+<a href="/index.html">Главная</a>
+<a href="#services">Услуги</a>
+<a href="#about">О нас</a>
+<a href="#gallery">Галерея</a>
+<a href="#location">Контакты</a>
+</nav>
+</div>
+<div class="header-contacts">
+<a href="tel:88000000000">8 (800) 000-00-00</a><br>
+<a href="mailto:territoriainfo@ya.ru">territoriainfo@ya.ru</a>
+</div>
+</header>
+
+<section>
+<h1>Политика использования cookies</h1>
+
+<p>На нашем сайте мы используем cookies для улучшения работы сайта, анализа посещаемости и персонализации контента.</p>
+
+<h2>Что такое cookies?</h2>
+<p>Cookies — это небольшие текстовые файлы, которые сохраняются на вашем устройстве при посещении сайта.</p>
+
+<h2>Зачем мы используем cookies</h2>
+<p>Мы используем cookies для:</p>
+<ul>
+<li>Сохранения предпочтений пользователей;</li>
+<li>Анализа посещаемости сайта;</li>
+<li>Обеспечения корректной работы сайта;</li>
+<li>Персонализации контента.</li>
+</ul>
+
+<h2>Управление cookies</h2>
+<p>Вы можете отключить cookies в настройках браузера. Однако это может повлиять на функциональность сайта.</p>
+
+<h2>Изменения политики</h2>
+<p>Мы можем обновлять данную политику. Все изменения будут опубликованы на этой странице.</p>
+</section>
+
+<footer>
+<div>
+<div class="footer-brand">ТЕРРИТОРИЯ</div>
+<p>Барбершоп премиум-класса для тех, кто ценит стиль, качество и атмосферу.</p>
+</div>
+<div>
+<h3>Контакты</h3>
+<p>Телефон: <a href="tel:88000000000">8 (800) 000-00-00</a></p>
+<p>Email: <a href="mailto:territoriainfo@ya.ru">territoriainfo@ya.ru</a></p>
+<p>Адрес: Советская улица, 124, Брянск</p>
+</div>
+<div>
+<h3>Навигация</h3>
+<a href="/index.html">Главная</a><br>
+<a href="#services">Услуги</a><br>
+<a href="#about">О нас</a><br>
+<a href="#gallery">Галерея</a><br>
+<a href="#location">Где нас найти?</a><br>
+<a href="privacy.html">Политика конфиденциальности</a><br>
+<a href="cookies.html">Политика использования cookies</a>
+</div>
+</footer>
+
+</body>
+</html>
